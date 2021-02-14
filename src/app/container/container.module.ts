@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ContainerComponent } from './container.component';
 
 import { HeaderModule } from './header/header.module';
+import { BodyModule } from './body/body.module';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { HeaderModule } from './header/header.module';
     imports: [
         CommonModule,
         HeaderModule,
+        BodyModule,
     ],
     exports: [
         ContainerComponent,

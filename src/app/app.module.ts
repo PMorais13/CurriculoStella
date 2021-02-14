@@ -11,8 +11,8 @@ import { ContainerModule } from './container/container.module';
   ],
   imports: [
     BrowserModule,
+    ContainerModule, 
     AppRoutingModule,
-    ContainerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
